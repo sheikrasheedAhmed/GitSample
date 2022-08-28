@@ -6,10 +6,9 @@
 <suite name = "Parallel Testing Suite">
    <test name = "Parallel Tests" thread-count="3" parallel = "methods">
       <classes>
-         <class name = "testNGSample.ParallelTesting" /> 
-         <class name = "testNGSample.GroupTesting" />
-           <class name = "testNGSample.Dependency" />
+         <class name = "testNGSample.ParallelTesting.java" /> 
          
+        
       </classes>
    </test>
 </suite>
