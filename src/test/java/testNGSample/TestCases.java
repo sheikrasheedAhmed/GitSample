@@ -25,7 +25,8 @@ public class TestCases {
 	    driver.get("http://demo.guru99.com/V4/");					
 	    driver.findElement(By.name("uid")).sendKeys("mngr34926");							
 	    driver.findElement(By.name("password")).sendKeys("amUpenu");							
-	    driver.findElement(By.name("btnLogin")).click();					
+	    driver.findElement(By.name("btnLogin")).click();
+	    System.out.println("added new line");
 	}		
 
 	// Forcefully failed this test as to verify listener.		
